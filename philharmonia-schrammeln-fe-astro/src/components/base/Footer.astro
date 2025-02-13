@@ -1,0 +1,31 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="bg-black text-white py-6 mt-10">
+    <div class="container mx-auto flex flex-wrap items-center justify-between px-4">
+        <!-- Logo -->
+        <div class="mb-4 md:mb-0">
+            <a href="/philharmonia-schrammeln-fe-astro/public" aria-label="Homepage">
+                Philharmonia Schrammeln Wien
+            </a>
+        </div>
+
+        <!-- Navigation -->
+        <!--
+        <nav class="mb-4 md:mb-0">
+            <ul class="flex flex-wrap space-x-4 text-sm">
+                <li><a href="/about" class="hover:text-gray-400">About</a></li>
+                <li><a href="/services" class="hover:text-gray-400">Services</a></li>
+                <li><a href="/contact" class="hover:text-gray-400">Contact</a></li>
+                <li><a href="/privacy" class="hover:text-gray-400">Privacy Policy</a></li>
+            </ul>
+        </nav>
+        -->
+
+        <!-- Copyright -->
+        <div class="text-center text-xs w-full md:w-auto">
+            <p>&copy; {currentYear} Stefan Hromada</p>
+        </div>
+    </div>
+</footer>
